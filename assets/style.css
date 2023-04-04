@@ -1,13 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+figure{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#mainbody{
+display: flex;
+height: 70%;
+flex-direction: column;
+justify-content: space-around;
+}
+
 .my-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
 
 .my-row h1 {
-
+width: 25%;
+text-align: right;
+border-right: 2px solid black;
+height: 40px;
+padding-right: 5px;
+margin-top: 5px;
+margin-bottom: 0px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .my-row section{
-
+width: 70%;
 }
 
 #about-me{
