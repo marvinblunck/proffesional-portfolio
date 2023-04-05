@@ -1,9 +1,11 @@
+/* might be able to delete height if its compressed */
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
     margin: 0px;
+    
 }
 
 header{
@@ -19,8 +21,8 @@ li{
 }
 
 figure{
-    background-color: blue;
-    height: 100px;
+    background-image: url(./image/zubergspitze.jpg);
+    height: 200px;
     width: 100%;
     display: block;
     margin-block-start: 0em;
@@ -29,22 +31,25 @@ figure{
     margin-inline-end: 0px;
 }
 #mainbody{
-display: flex;
-height: 70%;
+display: flex ;
+height: 100%;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
 }
 
 .my-row {
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    
 
 }
 
 .my-row h1 {
-width: 25%;
-text-align: right;
+width: 15%;
+text-align: left;
 border-right: 2px solid black;
 height: 40px;
 padding-right: 5px;
@@ -52,12 +57,44 @@ margin-top: 5px;
 margin-bottom: 0px;
 padding-top: 20px;
 padding-bottom: 20px;
+
 }
 
 .my-row section{
-width: 70%;
+width: 85%;
+height: 50%; 
+;
+
+}
+
+article section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-text{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #about-me{
+
+}
+
+#footer{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#footer button{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 30%;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px black;
 
 }
