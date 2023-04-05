@@ -5,7 +5,7 @@ body {
     justify-content: space-between;
     height: 100vh;
     margin: 0px;
-    
+    background-image: linear-gradient(to right top, #663751, #66355b, #623566, #593673, #493a81, #3a4389, #274c90, #005495, #005f92, #006786, #006d77, #157167);
 }
 
 header{
