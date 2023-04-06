@@ -3,7 +3,7 @@
 # Description
 This page is a portfolio of stuff I have created and am interested in. I created it so that I could put thungs that I am proud of that I have created into this website and share that with people of interest.
 
-Link to live page: https://marvinblunck.github.io/Refactoring-Code-/
+Link to live page: https://marvinblunck.github.io/proffesional-portfolio/
 
 # Installation
 N/A
